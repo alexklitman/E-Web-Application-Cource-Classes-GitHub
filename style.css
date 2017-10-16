@@ -1,0 +1,82 @@
+
+
+*{
+    box-sizing: border-box;
+  }
+
+  body{
+      margin: 20px; 
+  }
+
+
+.main-header{
+      text-align: center; 
+      background-color: lightgrey;
+      padding: 10px; 
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+  }
+
+  .main-container{
+    background-color: lightcyan;
+    /*border-bottom: 2px solid black;*/
+  }
+
+  .article-center-bottom{
+    border-bottom: 2px solid black; 
+    /*background-color: lightpink;*/
+   
+    display: block; 
+  }
+
+  .article-center-bottom h3{
+      text-decoration: underline; 
+  }
+
+/*-------------------------------*/
+
+/* Clear floats after the columns */
+.main-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*זאת הטעות ברגע שאני קובע מימדים הפוטר מתחרבש*/
+/*.row{
+    width: 100%; 
+    height: 800px;
+}*/
+
+.article-center{
+    float: left;
+    padding: 10px;
+    
+}
+
+
+.article-center a{
+    width:40%;
+    float: right;
+}
+
+
+.article-center a img{
+    width: 100%;
+    float: right;
+    padding: 10px;
+}
+
+
+/* Style the footer */
+.footer{
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    height: 45px;
+    border-bottom: 2px solid black;    
+    
+}
+
+
+ 
